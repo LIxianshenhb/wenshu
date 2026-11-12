@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-electron
+release
+.wenshu-data
+*.log
+.DS_Store
+out
+.vite
+*.tsbuildinfo

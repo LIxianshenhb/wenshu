@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f4efe6"/>
+  <circle cx="160" cy="270" r="72" fill="#9c3b2e"/>
+  <text x="250" y="250" font-size="64" fill="#1f1a17" font-family="Microsoft YaHei, WenQuanYi Micro Hei, sans-serif">文枢示例矢量图</text>
+  <text x="250" y="320" font-size="28" fill="#6e645c" font-family="Microsoft YaHei, WenQuanYi Micro Hei, sans-serif">SVG 可以直接在图片标签里打开</text>
+</svg>

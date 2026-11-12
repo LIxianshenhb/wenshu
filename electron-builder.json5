@@ -1,0 +1,42 @@
+{
+  appId: 'app.wenshu.desktop',
+  productName: '文枢',
+  executableName: 'wenshu',
+  copyright: 'Copyright © 2026 文枢',
+  directories: {
+    output: 'release',
+    buildResources: 'build',
+  },
+  files: ['dist/**', 'dist-electron/**', 'package.json'],
+  extraResources: [
+    { from: 'fixtures', to: 'fixtures' },
+    { from: 'assets/fonts', to: 'fonts' },
+  ],
+  asar: true,
+  win: {
+    target: [
+      { target: 'nsis', arch: ['x64'] },
+      { target: 'zip', arch: ['x64'] },
+    ],
+    icon: 'build/icon.png',
+  },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    unicode: true,
+    shortcutName: '文枢',
+    language: '2052',
+    installerLanguages: ['zh_CN'],
+  },
+  linux: {
+    target: ['AppImage'],
+    category: 'Office',
+    icon: 'build/icon.png',
+  },
+  mac: {
+    target: ['dmg'],
+    category: 'public.app-category.productivity',
+    icon: 'build/icon.png',
+  },
+}

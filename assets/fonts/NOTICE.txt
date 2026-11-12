@@ -1,0 +1,7 @@
+文泉驿微米黑 WenQuanYi Micro Hei 0.2.0-beta
+Copyright 2008-2009 The WenQuanYi Project Board of Trustees, Qianqian Fang, mozbug
+Based on the Droid font family (Google / Ascender).
+License: Apache-2.0 OR GPL-3.0-with-font-exception
+Source: https://sourceforge.net/projects/wqy/files/wqy-microhei/
+
+文枢用这份字体给 PDF 写入中文。未改动字形。
